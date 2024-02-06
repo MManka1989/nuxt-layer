@@ -1,5 +1,5 @@
 export default defineNuxtRouteMiddleware((to, _from) => {
-  console.log("This comes from middleware");
+  console.log("MIDDLEWARE: This comes from middleware");
   // if (to.params.id === "1") {
   //   return abortNavigation();
   // }
